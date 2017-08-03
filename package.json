@@ -1,0 +1,24 @@
+{
+  "name": "navalia-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "3",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "jest-image-snapshot": "^0.1.0",
+    "navalia": "^1.2.0",
+    "npm-run-all": "^4.0.2",
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom e2e",
+    "eject": "react-scripts eject",
+    "e2e": "jest todos.3.test.js"
+  }
+}
